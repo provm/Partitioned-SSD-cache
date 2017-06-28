@@ -1,0 +1,55 @@
+Setting up dmcache flashcache_create -p back home-cached /dev/sdb1 /dev/sda4
+
+__________________________________________
+> To create setup
+1. check if no device os mounted - HDD and SSD
+2. goto src dir modprobe flashcache
+3. check if flashcache is intilialised - dmesg
+4. flashcache_create -v -p back home-cached /dev/sdb1 /dev/sda4
+5. mount /dev/mapper/home-cached tmp
+
+> To check status
+dmsetup status home-cached
+
+> To remove
+dmsetup remove /dev/mapper/home-cached
+rmmod flashcache.ko
+flashcache_destroy /dev/sdb1
+
+Using with conatiners
+______________________________________________
+> To create shared directory between host machine and continers
+1. mkdir /shared1
+2. chmod 666 shared1
+3. create conatiner if not yet created
+4. in fstab file of container add the folowing line:
+	/shared1	/var/lib/lxc/ubuntu-01/rootfs/shared1	none bind 0 0
+5. create a directory "shared1" inside rootfs of container
+6. start container
+
+Now, whatever you will create in continer will getreflected in host and vice-versa
+___________________________________
+> DM+Container
+1. After setting up both the things mentioned above - flashcache + shared continer folder
+2. umount tmp of dm
+3. mount it in the shared folder
+	mount /dev/mapper/home-cached /shared
+____________________________________
+Create container on the HDD partition with SSD as cache
+1. do usual dmsetup 
+2. mount it on /shared1
+3. lxc-create -t ubuntu -n ubantu-03 -P /shared1
+______________________________________
+Create container on another parition of HDD (for this mount HDD partition on /shared not ssd partition)
+1. lxc-create -t ubuntu -n container-01
+2. change rootfs path in config file
+3. copy rootfs from /var/lib/lxc/container-01 to new parition
+Do after starting the container
+4. change the permisiion of sudo file if giving error for sudo su
+5. From the host machine change : chown root:root usr/bin/sudo , chmod 4755 usr/bin/sudo
+_________________________
+To drop the contents of page cache
+
+echo 3 > /proc/sys/vm/drop_caches
+_________________________
+Thats it  restart the continer if files are not visible.

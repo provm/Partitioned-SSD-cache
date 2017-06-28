@@ -1,0 +1,23 @@
+fio : 
+sudo apt-get install fio
+fio <filename>
+
+filebench:
+
+for filebench installation in container:
+
+apt-get update && apt-get install alien
+sudo apt-get install gcc make automake libtool bison byacc flex
+
+1. sudo apt-get install gcc
+2. sudo apt-get install make
+3. apt-get install automake
+sudo apt-get install libtool
+sudo apt-get install bison -y
+sudo apt-get install byacc -y
+sudo apt-get install flex
+3. autoreconf -f -i
+3. ./configure
+4. make
+5. sudo make install
+./filebench -f <filename>

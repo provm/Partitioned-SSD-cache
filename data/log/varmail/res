@@ -1,0 +1,78 @@
+[ 8899.411309] ---------------- CONTAINER : 1 ------------------ 
+[ 8899.411310] Total blocks: 62500
+[ 8899.411311] Container occupied: 62500
+[ 8899.411311] Container requests: 475099
+[ 8899.411312] Container hits: 1753
+[ 8899.411313] Container misses: 473346
+[ 8899.411313] Container evictions: 428078
+[ 8899.411314] ---------------- CONTAINER : 2 ------------------ 
+[ 8899.411315] Total blocks: 62500
+[ 8899.411315] Container occupied: 62500
+[ 8899.411316] Container requests: 2927902
+[ 8899.411317] Container hits: 338095
+[ 8899.411317] Container misses: 2589818
+[ 8899.411318] Container evictions: 2537689
+[ 8899.411319] ---------------- CONTAINER : 3 ------------------ 
+[ 8899.411319] Total blocks: 62500
+[ 8899.411320] Container occupied: 62500
+[ 8899.411320] Container requests: 2885335
+[ 8899.411321] Container hits: 318576
+[ 8899.411321] Container misses: 2566776
+[ 8899.411322] Container evictions: 2513811
+[ 8899.411323] ---------------- CONTAINER : 4 ------------------ 
+[ 8899.411323] Total blocks: 62500
+[ 8899.411324] Container occupied: 62500
+[ 8899.411324] Container requests: 3353042
+[ 8899.411325] Container hits: 352070
+[ 8899.411326] Container misses: 3000975
+[ 8899.411326] Container evictions: 2944790
+[ 8899.411327] 1000
+
+561: 977.293: IO Summary: 11518 ops, 12.797 ops/s, (2/2 r/w),   2.0mb/s, 962072us cpu/op, 4011.7ms latency
+ 535: 1026.202: IO Summary: 10456 ops, 11.408 ops/s, (11/0 r/w),  11.4mb/s, 342252us cpu/op, 2474.6ms latency
+622: 1016.469: IO Summary: 10337 ops, 11.429 ops/s, (11/0 r/w),  11.4mb/s, 344044us cpu/op, 2426.1ms latency
+ 498: 1024.120: IO Summary: 12051 ops, 13.220 ops/s, (13/0 r/w),  13.2mb/s, 295985us cpu/op, 2347.1ms latency
+
+===========================================================================
+
+[43435.909081] ---------------- CONTAINER : 1 ------------------ 
+[43435.909082] Total blocks: 62500
+[43435.909083] Container occupied: 10935
+[43435.909084] Container requests: 632406
+[43435.909085] Container hits: 9190
+[43435.909086] Container misses: 623218
+[43435.909088] Container evictions: 627168
+[43435.909089] ---------------- CONTAINER : 2 ------------------ 
+[43435.909090] Total blocks: 62500
+[43435.909091] Container occupied: 73053
+[43435.909092] Container requests: 3198290
+[43435.909093] Container hits: 433609
+[43435.909094] Container misses: 2764899
+[43435.909095] Container evictions: 2702421
+[43435.909097] ---------------- CONTAINER : 3 ------------------ 
+[43435.909098] Total blocks: 62500
+[43435.909099] Container occupied: 70502
+[43435.909100] Container requests: 3222811
+[43435.909101] Container hits: 446519
+[43435.909102] Container misses: 2776503
+[43435.909103] Container evictions: 2715737
+[43435.909104] ---------------- CONTAINER : 4 ------------------ 
+[43435.909105] Total blocks: 62500
+[43435.909106] Container occupied: 71310
+[43435.909107] Container requests: 3118873
+[43435.909108] Container hits: 416196
+[43435.909109] Container misses: 2703036
+[43435.909111] Container evictions: 2638342
+[43435.909112] ---------------- CONTAINER : 5 ------------------ 
+[43435.909113] Total blocks: 250000
+[43435.909114] Container occupied: 250000
+[43435.909115] Container requests: 12232802
+[43435.909116] Container hits: 1313220
+[43435.909117] Container misses: 10920537
+[43435.909118] Container evictions: 10713042
+
+557: 993.567: IO Summary: 14199 ops, 15.773 ops/s, (2/2 r/w),   2.6mb/s,  14007us cpu/op, 3202.4ms latency
+537: 1023.926: IO Summary: 11559 ops, 12.661 ops/s, (13/0 r/w),  12.6mb/s,   4471us cpu/op, 2452.8ms latency
+ 626: 1021.157: IO Summary: 11645 ops, 12.772 ops/s, (13/0 r/w),  12.7mb/s,   4435us cpu/op, 2435.1ms latency
+ 499: 1021.565: IO Summary: 11268 ops, 12.331 ops/s, (12/0 r/w),  12.3mb/s,   4638us cpu/op, 2476.4ms latency
+

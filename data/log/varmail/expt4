@@ -1,0 +1,84 @@
+Jun 18 07:39:48 shyamli-desktop anacron[19907]: Job `cron.daily' terminated
+Jun 18 07:39:48 shyamli-desktop anacron[19907]: Normal exit (1 job run)
+Jun 18 07:45:01 shyamli-desktop CRON[20359]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun 18 07:45:39 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.116 00:16:3e:1f:09:91 
+Jun 18 07:45:39 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.116 00:16:3e:1f:09:91 test_container
+Jun 18 07:55:01 shyamli-desktop CRON[20388]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun 18 08:00:09 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.71 00:16:3e:e2:1a:e6 
+Jun 18 08:00:09 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.71 00:16:3e:e2:1a:e6 test_container5
+Jun 18 08:01:18 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.57 00:16:3e:76:43:f2 
+Jun 18 08:01:18 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.57 00:16:3e:76:43:f2 test_container1
+Jun 18 08:03:47 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.117 00:16:3e:93:23:31 
+Jun 18 08:03:47 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.117 00:16:3e:93:23:31 test_container2
+Jun 18 08:05:01 shyamli-desktop CRON[20426]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun 18 08:06:47 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.116 00:16:3e:1f:09:91 
+Jun 18 08:06:47 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.116 00:16:3e:1f:09:91 test_container
+Jun 18 08:15:01 shyamli-desktop CRON[20442]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun 18 08:17:01 shyamli-desktop CRON[20448]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 18 08:24:25 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.71 00:16:3e:e2:1a:e6 
+Jun 18 08:24:25 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.71 00:16:3e:e2:1a:e6 test_container5
+Jun 18 08:25:01 shyamli-desktop CRON[20473]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun 18 08:25:10 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.57 00:16:3e:76:43:f2 
+Jun 18 08:25:10 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.57 00:16:3e:76:43:f2 test_container1
+Jun 18 08:28:37 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.116 00:16:3e:1f:09:91 
+Jun 18 08:28:37 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.116 00:16:3e:1f:09:91 test_container
+Jun 18 08:31:03 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.117 00:16:3e:93:23:31 
+Jun 18 08:31:03 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.117 00:16:3e:93:23:31 test_container2
+Jun 18 08:35:01 shyamli-desktop CRON[20511]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun 18 08:45:01 shyamli-desktop CRON[20515]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun 18 08:45:53 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.57 00:16:3e:76:43:f2 
+Jun 18 08:45:53 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.57 00:16:3e:76:43:f2 test_container1
+Jun 18 08:49:11 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.71 00:16:3e:e2:1a:e6 
+Jun 18 08:49:11 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.71 00:16:3e:e2:1a:e6 test_container5
+Jun 18 08:53:18 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.117 00:16:3e:93:23:31 
+Jun 18 08:53:18 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.117 00:16:3e:93:23:31 test_container2
+Jun 18 08:55:01 shyamli-desktop CRON[20553]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun 18 08:55:53 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.116 00:16:3e:1f:09:91 
+Jun 18 08:55:53 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.116 00:16:3e:1f:09:91 test_container
+Jun 18 09:05:01 shyamli-desktop CRON[20570]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun 18 09:09:22 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.57 00:16:3e:76:43:f2 
+Jun 18 09:09:22 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.57 00:16:3e:76:43:f2 test_container1
+Jun 18 09:15:01 shyamli-desktop CRON[20585]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun 18 09:15:23 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.71 00:16:3e:e2:1a:e6 
+Jun 18 09:15:23 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.71 00:16:3e:e2:1a:e6 test_container5
+Jun 18 09:17:01 shyamli-desktop CRON[20602]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 18 09:17:12 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.116 00:16:3e:1f:09:91 
+Jun 18 09:17:12 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.116 00:16:3e:1f:09:91 test_container
+Jun 18 09:17:35 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.117 00:16:3e:93:23:31 
+Jun 18 09:17:35 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.117 00:16:3e:93:23:31 test_container2
+Jun 18 09:25:01 shyamli-desktop CRON[20638]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun 18 09:29:22 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.57 00:16:3e:76:43:f2 
+Jun 18 09:29:22 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.57 00:16:3e:76:43:f2 test_container1
+Jun 18 09:35:01 shyamli-desktop CRON[20655]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun 18 09:37:06 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.71 00:16:3e:e2:1a:e6 
+Jun 18 09:37:06 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.71 00:16:3e:e2:1a:e6 test_container5
+Jun 18 09:38:56 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.116 00:16:3e:1f:09:91 
+Jun 18 09:38:56 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.116 00:16:3e:1f:09:91 test_container
+Jun 18 09:44:27 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.117 00:16:3e:93:23:31 
+Jun 18 09:44:27 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.117 00:16:3e:93:23:31 test_container2
+Jun 18 09:45:01 shyamli-desktop CRON[20693]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun 18 09:51:26 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.57 00:16:3e:76:43:f2 
+Jun 18 09:51:26 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.57 00:16:3e:76:43:f2 test_container1
+Jun 18 09:55:01 shyamli-desktop CRON[20709]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun 18 10:02:54 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.116 00:16:3e:1f:09:91 
+Jun 18 10:02:54 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.116 00:16:3e:1f:09:91 test_container
+Jun 18 10:03:15 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.71 00:16:3e:e2:1a:e6 
+Jun 18 10:03:15 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.71 00:16:3e:e2:1a:e6 test_container5
+Jun 18 10:05:01 shyamli-desktop CRON[20736]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun 18 10:06:43 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.117 00:16:3e:93:23:31 
+Jun 18 10:06:43 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.117 00:16:3e:93:23:31 test_container2
+Jun 18 10:14:04 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.57 00:16:3e:76:43:f2 
+Jun 18 10:14:04 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.57 00:16:3e:76:43:f2 test_container1
+Jun 18 10:15:01 shyamli-desktop CRON[20763]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun 18 10:17:01 shyamli-desktop CRON[20769]: (root) CMD (   cd / && run-parts --report /etc/cron.hourly)
+Jun 18 10:24:43 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.116 00:16:3e:1f:09:91 
+Jun 18 10:24:43 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.116 00:16:3e:1f:09:91 test_container
+Jun 18 10:25:01 shyamli-desktop CRON[20794]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun 18 10:26:16 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.71 00:16:3e:e2:1a:e6 
+Jun 18 10:26:16 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.71 00:16:3e:e2:1a:e6 test_container5
+Jun 18 10:33:31 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.117 00:16:3e:93:23:31 
+Jun 18 10:33:31 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.117 00:16:3e:93:23:31 test_container2
+Jun 18 10:35:01 shyamli-desktop CRON[20821]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)
+Jun 18 10:40:21 shyamli-desktop dnsmasq-dhcp[1497]: DHCPREQUEST(lxcbr0) 10.0.3.57 00:16:3e:76:43:f2 
+Jun 18 10:40:21 shyamli-desktop dnsmasq-dhcp[1497]: DHCPACK(lxcbr0) 10.0.3.57 00:16:3e:76:43:f2 test_container1
+Jun 18 10:45:01 shyamli-desktop CRON[20841]: (root) CMD (command -v debian-sa1 > /dev/null && debian-sa1 1 1)

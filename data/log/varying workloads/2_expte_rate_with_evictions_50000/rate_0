@@ -1,0 +1,87 @@
+CACHE 21220 16236
+[83092.729059] CACHE 30620 26151
+[83212.731647] CACHE 40834 37032
+[83332.734256] CACHE 51829 49200
+[83452.732887] CACHE 65104 63413
+[83572.731496] CACHE 78159 76857
+[83692.730062] CACHE 90208 88848
+[83812.728672] CACHE 100717 99777
+[83932.727313] CACHE 110314 109219
+[84052.725892] CACHE 119290 117963
+[84172.724517] CACHE 125000 125000
+
+[84826.996183] ---------------- CONTAINER : 1 ------------------ 
+[84826.996185] Total blocks: 125000
+[84826.996187] Container occupied: 125000
+[84826.996189] Container requests: 638690
+[84826.996191] Container hits: 506195
+[84826.996193] Container misses: 132495
+[84826.996195] Container evictions: 21758
+[84826.996197] ---------------- CONTAINER : 2 ------------------ 
+[84826.996199] Total blocks: 125000
+[84826.996202] Container occupied: 125000
+[84826.996203] Container requests: 638707
+[84826.996205] Container hits: 507407
+[84826.996207] Container misses: 131300
+[84826.996210] Container evictions: 15215
+
+real	25m12.793s
+user	0m0.760s
+sys	0m10.152s
+
+real	24m25.528s
+user	0m0.784s
+sys	0m10.292s
+
+===========================================================
+unified
+[ 7590.277306] CACHE 23240 18346
+[ 7710.270632] CACHE 32737 28405
+[ 7830.263952] CACHE 42624 39183
+[ 7950.257334] CACHE 53925 51287
+[ 8070.250597] CACHE 66630 64844
+[ 8190.243933] CACHE 79289 77765
+[ 8310.237274] CACHE 90906 89147
+[ 8430.230567] CACHE 101126 99615
+[ 8550.223920] CACHE 110542 109341
+[ 8670.217239] CACHE 119545 118204
+[ 8790.210563] CACHE 123601 126362
+[ 8910.207851] CACHE 121761 128239
+[ 9022.574026] ---------------- CONTAINER : 0 ------------------ 
+[ 9022.574033] Total blocks: 15000
+[ 9022.574036] Container occupied: 0
+[ 9022.574038] Container requests: 0
+[ 9022.574041] Container hits: 0
+[ 9022.574043] Container misses: 0
+[ 9022.574045] Container evictions: 202
+[ 9022.574047] ---------------- CONTAINER : 1 ------------------ 
+[ 9022.574049] Total blocks: 150000
+[ 9022.574052] Container occupied: 126845
+[ 9022.574054] Container requests: 640092
+[ 9022.574056] Container hits: 507478
+[ 9022.574058] Container misses: 132614
+[ 9022.574060] Container evictions: 20031
+[ 9022.574062] ---------------- CONTAINER : 2 ------------------ 
+[ 9022.574064] Total blocks: 150000
+[ 9022.574066] Container occupied: 123155
+[ 9022.574068] Container requests: 635879
+[ 9022.574070] Container hits: 506748
+[ 9022.574072] Container misses: 129131
+[ 9022.574074] Container evictions: 14925
+[ 9022.574076] ---------------- CONTAINER : 3 ------------------ 
+[ 9022.574078] Total blocks: 250000
+[ 9022.574080] Container occupied: 250000
+[ 9022.574082] Container requests: 1275969
+[ 9022.574084] Container hits: 1014224
+[ 9022.574086] Container misses: 261745
+[ 9022.574088] Container evictions: 35158
+[ 9022.574090] 1000
+
+real	25m35.611s
+user	0m0.848s
+sys	0m10.828s
+
+real	24m46.361s
+user	0m0.904s
+sys	0m10.928s
+

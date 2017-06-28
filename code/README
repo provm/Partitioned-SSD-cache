@@ -1,3 +1,5 @@
+Description for compilation, options and files 
+
 Setting up dmcache flashcache_create -p back home-cached /dev/sdb1 /dev/sda4
 
 __________________________________________
@@ -9,10 +11,10 @@ __________________________________________
 5. mount /dev/mapper/home-cached /shared
 
 > To check status
-dmsetup status home-cached
+dmsetup status home
 
 > To remove
-dmsetup remove /dev/mapper/home-cached
+dmsetup remove /dev/mapper/home
 rmmod flashcache.ko
 flashcache_destroy /dev/sdb1
 
@@ -45,11 +47,26 @@ Create container on another parition of HDD (for this mount HDD partition on /sh
 2. change rootfs path in config file
 3. copy rootfs from /var/lib/lxc/container-01 to new parition
 Do after starting the container
-4. change the permisiion of sudo file if giving error for sudo su
+4. change the permission of sudo file if giving error for sudo su
 5. From the host machine change : chown root:root usr/bin/sudo , chmod 4755 usr/bin/sudo
 _________________________
 To drop the contents of page cache
 
 echo 3 > /proc/sys/vm/drop_caches
 _________________________
-Thats it  restart the continer if files are not visible.
+Thats it  restart the container if files are not visible.
+
+==========================================================================
+Machine where program was compiled and executed
+
+Configuration -
+RAM : 8GB
+Hard disk : 500 GB
+Processor : Intel inside core i5
+
+=========================================================================
+List of workloads and configurations used :
+
+1. Filebench -  random reads, webserver, varmail
+2. Synthetic workload generated 
+3. YCSB + MongoDb

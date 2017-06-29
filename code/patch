@@ -1,0 +1,11 @@
+add this to drivers/md/dm_kcopyd.c
+
+void (*inst_generic_make_request_ptr)(struct bio *bio) = NULL;
+//inst_generic_make_request_ptr = NULL;
+EXPORT_SYMBOL(inst_generic_make_request_ptr);
+
+int (*flashcache_change_container_size_ptr)(int, int) = NULL;
+//flashcache_change_container_size_ptr = NULL;
+EXPORT_SYMBOL(flashcache_change_container_size_ptr);
+
+

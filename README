@@ -1,0 +1,23 @@
+# Partitioned-SSD-cache
+All README's present inside respective folders
+The folder structure is as follows :
+/code
+	- README
+	- /scripts
+	- /analyser
+	- /partitioner
+	
+   |_ workload configuration files/scripts
+   |_ workload setup details
+/data
+	- README describing data collected with names of log files
+	- log
+	- graph generation scripts
+	- plotted graphs
+/reports
+	- mtp1 report
+	- mtp2 report
+	- mtp1 presentation
+	- mtp2 presentation
+	- seminar report
+	- seminar presentation

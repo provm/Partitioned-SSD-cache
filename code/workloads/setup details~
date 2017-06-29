@@ -90,7 +90,4 @@ usage "       set \$meandirwidth=<value>  defaults to $meandirwidth"
 usage "       set \$nthreads=<value>  defaults to $nthreads"
 usage "       set \$iosize=<size>     defaults to $iosize"
 usage "       run runtime (e.g. run 60)"
-==========================================================
-
-Synthetic workload code in myworkload.c file
 

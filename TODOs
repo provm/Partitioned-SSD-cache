@@ -1,0 +1,3 @@
+Analyser module to support limited SSD cache size
+Experiments on performance of dynamic partitioning
+Resizing of cache can be based on page cache access patterns
